@@ -1,7 +1,7 @@
-  var VideoListEntryView = Backbone.View.extend({
+var VideoListEntryView = Backbone.View.extend({
 
   events: {
-    'click .video-list-entry-title':'handleClick'
+    'click .video-list-entry-title' : 'handleClick'
   },
 
   handleClick: function() {
